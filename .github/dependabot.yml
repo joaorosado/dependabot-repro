@@ -7,6 +7,9 @@ version: 2
 updates:
 - package-ecosystem: nuget
   directory: "/"
+  groups:
+    NewtonGroup:
+      - "Newtonsoft.*"
   schedule:
     interval: daily
   rebase-strategy: disabled
