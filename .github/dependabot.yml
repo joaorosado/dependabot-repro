@@ -9,7 +9,8 @@ updates:
   directory: "/"
   groups:
     NewtonGroup:
-      - "Newtonsoft.*"
+      patterns:
+        - "Newtonsoft.*"
   schedule:
     interval: daily
   rebase-strategy: disabled
